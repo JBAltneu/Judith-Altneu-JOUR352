@@ -1,3 +1,5 @@
+/* Styles for my resume */
+/* I changed the font, font size, color and font weight */
 body {
   font-family: 'Open Sans', arial sans-serif;
   font-size: 1em;
@@ -5,6 +7,7 @@ body {
   font-weight: 400;
 }
 
+/* Designs name */
 h1 {
   font-size: 3.5em;
   color: #33485e;
@@ -12,12 +15,14 @@ h1 {
   text-align: center;
 }
 
+/* Changes title */
 strong {
   font-size: 2em;
   text-transform: uppercase;
   color: #33485e;
 }
 
+/* Designs headers like experience, skills  */
 h2 {
   font-size: 1.5em;
   text-transform: uppercase;
@@ -25,22 +30,26 @@ h2 {
   color: white;
 }
 
+/* Styles job positions */
 h3 {
   font-size: 2em;
   font-weight: 600;
 }
 
+/* Organizations I work for */
 h4{
   font-size: 1.5;
   font-weight: 400;
 }
 
+/* Dates part of organization */
 h5 {
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
 }
 
+/* Styles contact, education and skills lists */
 li {
   font-size: 1.5em;
 }
