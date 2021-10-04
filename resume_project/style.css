@@ -7,6 +7,7 @@ body {
   font-weight: 400;
 }
 
+/*Changed h1 tag a div tag with an id called name*/ 
 /* Designs name */
 #name {
   font-size: 3.5em;
@@ -26,6 +27,7 @@ strong {
   color: #33485e;
 }
 
+/*Changed h2 tags to a div tag with a class called sectionheader */
 /* Designs headers like experience, skills  */
 .sectionheader {
   font-size: 1.5em;
@@ -38,8 +40,9 @@ strong {
   min-width: 300px;
 }
 
+/* Changed h3 tags to a div tag with a class called jobtitle */
 /* Styles job positions */
-h3 {
+.jobtitle {
   font-size: 2em;
   font-weight: 600;
 }
