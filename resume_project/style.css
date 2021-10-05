@@ -52,7 +52,10 @@ body {
   padding-left: 0px;
   padding-right: 0px;
   text-align: center;
-  display:inline;
+}
+
+.menu li {
+  display: inline;
 }
 
 /*Changed h2 tags to a div tag with a class called sectionheader */
@@ -118,9 +121,9 @@ body {
 }
 
 /* Styles education and skills lists */
-/*li {
+li {
   font-size: 1em;
-}*/
+}
 
 .top{
   width: 60%;
