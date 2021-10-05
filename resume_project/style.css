@@ -7,6 +7,7 @@ body {
   font-weight: 400;
 }
 
+/* Styles the entire body of website */
 #container {
   width: 100%;
   max-width: 1200px;
@@ -54,6 +55,7 @@ body {
   text-align: center;
 }
 
+/* Centers contact list */
 .menu li {
   display: inline;
 }
@@ -106,6 +108,7 @@ body {
   margin-right: 0px;
 }
 
+/* Styles unordered list under Education header */
 #degrees {
   margin-top: 5px;
   margin-bottom: 0px;
@@ -113,6 +116,7 @@ body {
   margin-right: 0px;
 }
 
+/* Styles unordered list under Skills header */
 #do {
   margin-top: 5px;
   margin-bottom: 0px;
@@ -125,6 +129,7 @@ li {
   font-size: 1em;
 }
 
+/* Styles mission statement */
 .top{
   width: 60%;
   min-width: 300px;
