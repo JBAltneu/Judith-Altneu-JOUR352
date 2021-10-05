@@ -52,7 +52,7 @@ body {
   padding-left: 0px;
   padding-right: 0px;
   text-align: center;
-  display: inline;
+  display:inline;
 }
 
 /*Changed h2 tags to a div tag with a class called sectionheader */
@@ -62,8 +62,8 @@ body {
   text-transform: uppercase;
   background-color: #33485e;
   color: white;
-  margin-bottom: 10px;
   margin-top: 20px;
+  margin-bottom: 10px;
   margin-left: 0px;
   margin-right: 0px;
   width: 70%;
