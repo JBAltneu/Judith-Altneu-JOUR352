@@ -1,0 +1,54 @@
+img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.btn-dark {
+  margin-top: 25px;
+}
+
+.col-md-6{
+  text-align: center;
+}
+
+.bi {
+  font-size: 3em;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Special Elite';
+}
+
+h2 {
+    font-family: 'Special Elite';
+}
+
+h3 {
+    font-family: 'Special Elite';
+}
+
+.navbrand {
+    font-family: 'Special Elite';
+}
+
+.btn {
+    font-family: 'Special Elite';
+}
+
+.row {
+  padding-bottom: 50px;
+}
+
+   @media only screen and (max-width: 500px) {
+     .btn {
+       background-color: teal !important;
+     }
+      h2 {
+        padding-top: 50px;
+      }
+
+   }
