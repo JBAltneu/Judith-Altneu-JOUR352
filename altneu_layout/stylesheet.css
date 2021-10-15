@@ -19,6 +19,7 @@ p{
   font-size: 13px;
 }
 
+/* Changed size and color of icon to make it stand out */ 
 .bi {
   font-size: 5em;
   color: red;
@@ -36,4 +37,10 @@ img {
 caption {
   font-family: Georgia, serif;
   font-size: 10px;
+}
+
+/*Made pull out quote stand out */
+blockquote {
+  font-size: 28px;
+  color: blue;
 }
