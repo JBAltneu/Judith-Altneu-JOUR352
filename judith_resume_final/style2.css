@@ -1,10 +1,10 @@
 /* Styles for my resume */
 /* I changed the font, font size, color and font weight */
 body {
-  font-family: 'Open Sans', arial sans-serif;
   font-size: 1em;
   color: #444;
   font-weight: 400;
+  margin-left: 70px;
 }
 
 /* Styles the entire body of website */
@@ -18,8 +18,9 @@ body {
 /* Designs name */
 #name {
   font-size: 3.5em;
-  color: #33485e;
+  color: #7614AE;
   text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   border-bottom-width: 2px;
   border-bottom-style: solid;
@@ -33,7 +34,8 @@ body {
 #title {
   font-size: 2em;
   text-transform: uppercase;
-  color: #33485e;
+  font-family: 'Poppins', sans-serif;
+  color: #7614AE;
   font-weight: 600;
   text-align: center;
   margin-top: 20px;
@@ -44,6 +46,7 @@ body {
 
 /* Styles contact list */
 .menu {
+  font-family: arial, sans-serif;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
@@ -53,20 +56,24 @@ body {
   padding-left: 0px;
   padding-right: 0px;
   text-align: center;
+  color: #FFFFFF;
 }
 
 /* Centers contact list */
-.menu li {
+.menu p {
   display: inline;
+
 }
 
 /*Changed h2 tags to a div tag with a class called sectionheader */
 /* Designs headers like experience, skills  */
 .sectionheader {
-  font-size: 1.5em;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
-  background-color: #33485e;
-  color: white;
+  background-color: #7614AE;
+  color: #FFFFFF;
   margin-top: 20px;
   margin-bottom: 10px;
   margin-left: 0px;
@@ -80,36 +87,42 @@ body {
 .jobtitle {
   font-size: 2em;
   font-weight: 600;
+  font-family: arial, sans-serif;
+  font-size: 24px;
 }
 
 /* Changed h4 tags to a div with a class called organization */
 /* Organizations I work for */
 .organization{
-  font-size: 1.5em;
+  font-size: 22px;
   font-weight: 400;
+  font-family: arial, sans-serif;
 }
 
 /* Dates part of organization */
 .date {
   font-weight: 400;
   font-size: 1em;
+  font-family: arial, sans-serif;
   font-style: italic;
   margin-top: 3px;
   margin-bottom: 0px;
-  margin-left: 0px;
+  margin-left: 20px;
   margin-right: 0px;
 }
 
 /* Styles paragraphs */
 .description {
+  font-family: arial, sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 0px;
+  margin-left: 20px;
   margin-right: 0px;
 }
 
 /* Styles unordered list under Education header */
 #degrees {
+  font-family: arial, sans-serif;
   margin-top: 5px;
   margin-bottom: 0px;
   margin-left: 0px;
@@ -118,6 +131,7 @@ body {
 
 /* Styles unordered list under Skills header */
 #do {
+  font-family: arial, sans-serif;
   margin-top: 5px;
   margin-bottom: 0px;
   margin-left: 0px;
@@ -127,12 +141,33 @@ body {
 /* Styles education and skills lists */
 li {
   font-size: 1em;
+  font-family: arial, sans-serif;
 }
 
 /* Styles mission statement */
 .top{
-  width: 60%;
+  font-family: arial, sans-serif;
+  width: 80%;
   min-width: 300px;
-  margin: 0 auto;
   margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.col-md-5 {
+  background-color: #7614AE;
+  width: 50%;
+}
+
+.col-md-2 {
+  background-color: #FFFFFF;
+}
+
+img {
+  width: 70%;
+  margin-left: 100px;
+  margin-right: 30px;
+}
+
+.navitem {
+  color: #7514AE;
 }
