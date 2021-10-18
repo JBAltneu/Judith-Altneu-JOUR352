@@ -65,6 +65,10 @@ body {
 
 }
 
+a:link{
+  color: #FFFFFF;
+}
+
 /*Changed h2 tags to a div tag with a class called sectionheader */
 /* Designs headers like experience, skills  */
 .sectionheader {
@@ -168,6 +172,6 @@ img {
   margin-right: 30px;
 }
 
-.navitem {
+.navbar-brand {
   color: #7514AE;
 }
