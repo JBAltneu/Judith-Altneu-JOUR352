@@ -1,0 +1,55 @@
+p {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 12px;
+}
+
+h1 {
+  font-family: Bakerville;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: Bakerville;
+  font-size: 20px;
+}
+
+#byline {
+  font-family: Bakerville;
+  font-size: 16px;
+}
+
+img {
+  width: 90%;
+  max-width: 1000px;
+  margin-left: 40px;
+}
+
+#pagetopper {
+  background-color:
+}
+
+.caption2 {
+    margin-left: 40px;
+}
+
+/*#pagewrapper {
+
+}*/
+
+#photoshoot {
+  height: 700px;
+  max-width: 1000px;
+  width: 60%;
+}
+
+.graphic {
+  width: 70%;
+  max-width: 800px;
+  margin: 0, auto;
+}
+
+blockquote{
+  color: #3463e4;
+  font-size: 20px;
+  text-align: center;
+}

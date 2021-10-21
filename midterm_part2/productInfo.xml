@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product_info>
+  <packageserviceurl>https://prod-rel-ffc-ccm.oobesaas.adobe.com/adobe-ffc-external/core/v1/applications</packageserviceurl>
+  <aamurl>https://ccmdls.adobe.com/AdobeProducts/KCCC/1/win32/manifest.xml</aamurl>
+</product_info>
