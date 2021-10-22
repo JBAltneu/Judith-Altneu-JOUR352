@@ -3,6 +3,7 @@ p {
   font-size: 12px;
 }
 
+/* Added a serif font */
 h1 {
   font-family: Bakerville;
   font-size: 30px;
@@ -18,26 +19,39 @@ h3 {
   font-size: 16px;
 }
 
+/* Added space between the left margin to center the image more */
 img {
-  width: 90%;
-  max-width: 1000px;
+  width: 70%;
+  max-width: 800px;
   margin-left: 40px;
 }
 
-#pagetopper {
-  background-color:
+.top {
+  max-width: 1000px;
+  padding-bottom: 40px;
+  margin: 0, auto;
 }
 
 .caption2 {
     margin-left: 40px;
 }
 
-/*#pagewrapper {
+/* Adjusts photo of Rapinoe going to the ball */
+.action {
+  max-height: 900px;
+  width: 50%;
+}
 
-}*/
+/* Styles the entire body of website */
+#pagewrapper {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
+/* Styles Rapinoe8 photo */
 #photoshoot {
-  height: 700px;
+  height: 800px;
   max-width: 1000px;
   width: 60%;
 }
@@ -46,10 +60,24 @@ img {
   width: 70%;
   max-width: 800px;
   margin: 0, auto;
+  padding-bottom: 30px;
 }
 
 blockquote{
   color: #3463e4;
   font-size: 20px;
   text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* I moved the list items to the left because when the text was in the center,
+the bullets were still to the left and it looked funny */
+ul {
+  text-align: left;
+}
+
+#celebration {
+  width: 50%;
+  height: 800px;
 }
