@@ -2,7 +2,6 @@
 /* I changed the font, font size, color and font weight */
 body {
   font-size: 1em;
-  color: #444;
   font-weight: 400;
   margin-left: 70px;
 }
@@ -13,10 +12,41 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
+  background-color: #AAEBCF;
 }
+
+#pagetopper {
+  max-width: 1050px;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-bottom: 30px;
+}
+
+.topper {
+  font-size: 3.5em;
+  color: #7614AE;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /*Changed h1 tag a div tag with an id called name*/
 /* Designs name */
-#name {
+/*#name {
   font-size: 3.5em;
   color: #7614AE;
   text-transform: uppercase;
@@ -28,10 +58,10 @@ body {
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
-}
+}*/
 
 /* Changes title */
-#title {
+/*#title {
   font-size: 2em;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
@@ -42,7 +72,7 @@ body {
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-}
+}*/
 
 /* Styles contact list */
 .menu {
@@ -55,19 +85,17 @@ body {
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
+  margin: 0 auto;
   text-align: center;
   color: #FFFFFF;
 }
 
 /* Centers contact list */
-.menu p {
+ a .menu {
   display: inline;
-
+  text-align: center;
 }
 
-a:link{
-  color: #FFFFFF;
-}
 
 /*Changed h2 tags to a div tag with a class called sectionheader */
 /* Designs headers like experience, skills  */
@@ -119,7 +147,7 @@ a:link{
 .description {
   font-family: arial, sans-serif;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 0px;
 }
@@ -155,6 +183,7 @@ li {
   min-width: 300px;
   margin-bottom: 30px;
   margin-left: 20px;
+  margin-top: 30px;
 }
 
 .col-md-5 {
@@ -163,7 +192,7 @@ li {
 }
 
 .col-md-2 {
-  background-color: #FFFFFF;
+  background-color: #AAEBCF;
 }
 
 img {
