@@ -1,78 +1,54 @@
 /* Styles for my resume */
-/* I changed the font, font size, color and font weight */
-body {
-  font-size: 1em;
-  font-weight: 400;
-  margin-left: 70px;
-}
 
 /* Styles the entire body of website */
 #container {
-  width: 100%;
+  width: 110%;
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
-  background-color: #AAEBCF;
+  padding-right: 0px;
+  font-size: 1em;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: 0px;
+  /*background-color: #9E9E9E;*/
 }
 
 #pagetopper {
-  max-width: 1050px;
   width: 100%;
+  max-height: 1000px;
   margin-right: 0px;
   margin-left: 0px;
   padding-bottom: 30px;
+  padding-right: 0px;
 }
 
+/*Styles text on photos
 .topper {
   font-size: 3.5em;
   color: #7614AE;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
-}
+}*/
 
-.centered1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.centered2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 /*Changed h1 tag a div tag with an id called name*/
-/* Designs name */
-/*#name {
-  font-size: 3.5em;
+/* Styles text on page topper */
+  #name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
   color: #7614AE;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  border-bottom-color: #33485e;
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
-}*/
+}
 
-/* Changes title */
-/*#title {
-  font-size: 2em;
-  text-transform: uppercase;
-  font-family: 'Poppins', sans-serif;
-  color: #7614AE;
-  font-weight: 600;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-}*/
 
 /* Styles contact list */
 .menu {
@@ -90,10 +66,9 @@ body {
   color: #FFFFFF;
 }
 
-/* Centers contact list */
- a .menu {
-  display: inline;
-  text-align: center;
+/* Changes color to hyperlinks on contact list */
+.contact {
+  color: #FFFFFF;
 }
 
 
@@ -110,7 +85,7 @@ body {
   margin-bottom: 10px;
   margin-left: 0px;
   margin-right: 0px;
-  width: 70%;
+  width: 100%;
   min-width: 300px;
 }
 
@@ -189,10 +164,12 @@ li {
 .col-md-5 {
   background-color: #7614AE;
   width: 50%;
+  text-align: center;
 }
 
 .col-md-2 {
-  background-color: #AAEBCF;
+  /*background-color: #AAEBCF;*/
+  background-color: #FFFFFF;
 }
 
 img {
@@ -203,4 +180,9 @@ img {
 
 .navbar-brand {
   color: #7514AE;
+}
+
+footer {
+  border-top: solid;
+  border-color: #7614AE;
 }
