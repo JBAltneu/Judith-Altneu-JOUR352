@@ -11,6 +11,7 @@
 
 .chapterhead {
   font-size: 1.75em;
+  font-weight: 500px;
 }
 
 img {
@@ -21,4 +22,18 @@ img {
 
 .caption {
   margin-left: 40px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.col-md-4 {
+  padding-bottom: 25px;
+}
+
+.para2{
+  margin-bottom: 30px;
 }
