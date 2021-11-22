@@ -1,23 +1,36 @@
+.container {
+  width: 100%;
+}
+
 .headline {
   font-size: 3em;
   font-weight: 700px;
   text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 .byline {
   text-align: center;
   font-size: 1em;
+  font-family: 'Helvetica', sans-serif;
 }
 
 .chapterhead {
   font-size: 2em;
   font-weight: 500px;
+  font-family: 'Playfair Display', serif;
 }
 
 img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+p {
+  /*text-align: left;*/
+  font-size: 16px;
+  font-family: 'Helvetica', sans-serif;
 }
 
 .caption {
@@ -34,8 +47,9 @@ footer {
   padding-bottom: 25px;
 }
 
-.para2{
-  margin-bottom: 30px;
+#authors {
+  font-style: italic;
+  font-family: 'Helvetica', sans-serif;
 }
 
 /* top hat */
@@ -47,7 +61,8 @@ footer {
 }
 
 .red {
-  color: #f23030;
+  /*color: #f23030;*/
+  color: #e61919;
 }
 
 .bg-dark {
@@ -59,6 +74,7 @@ footer {
   position: relative;
   text-align: center;
   color: white;
+  font-family: 'Playfair Display', serif;
 }
 
 .hero-image {
@@ -83,30 +99,40 @@ width: 100%;
 }
 
 .hero-sub {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: .25em;
 }
 
 /* pullout quote */
 .quote {
-  font-family: 'Montserrat', sans-serif;
-  color: #f23030;
+  font-family: 'Helvetica', sans-serif;
+  /*color: #f23030;*/
+  color: #e61919;
   font-size: 2.5em;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
   padding: 15px, 0px, 15px, 0px;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 15px;
 }
 
 .quote-attribution {
   font-size: .5em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: 250;
-  text-align: left;
+  text-align: center;
   color: #000;
+}
+
+iframe {
+  margin-left: 70px;
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /*padding-right: 50px;*/
 }
 
 @media(max-width:550px) {
