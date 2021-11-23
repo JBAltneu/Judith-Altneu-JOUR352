@@ -18,7 +18,7 @@
 .chapterhead {
   font-size: 2em;
   font-weight: 500px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
 p {
@@ -38,9 +38,9 @@ footer {
   text-align: center;
 }
 
-.col-md-4 {
+/*.col-md-12 {
   padding-bottom: 25px;
-}
+}*/
 
 #authors {
   font-style: italic;
@@ -88,7 +88,7 @@ width: 100%;
   padding-top: 10px;
   margin: 0 auto;
   font-size: 6em;
-  font-family: 'Playfair Display', seif;
+  font-family: 'Playfair Display', serif;
   padding-bottom: 10px;
   color: #ffffff;
 }
@@ -100,7 +100,8 @@ width: 100%;
 
 /* pullout quote */
 .quote {
-  font-family: 'Helvetica', sans-serif;
+  /*font-family: 'Helvetica', sans-serif;*/
+  font-family: 'Playfair Display', serif;
   /*color: #f23030;*/
   color: #e61919;
   font-size: 2.5em;
@@ -111,12 +112,14 @@ width: 100%;
   border-bottom: 1px solid #000;
   margin-top: 20px;
   margin-bottom: 20px;
-  /*margin-left: 15px;*/
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .quote-attribution {
-  font-size: 14px;
-  font-family: 'Helvetica', sans-serif;
+  font-size: 0.75em;
+  /*font-family: 'Helvetica', sans-serif;*/
+  font-family: 'Playfair Display', serif;
   font-weight: 250;
   text-align: center;
   color: #000;
@@ -124,15 +127,37 @@ width: 100%;
 
 /*Sidebar */
 .sidebar {
+  width: 80%;
+  margin: auto 0;
   background-color: #e61919;
   color: #ffffff;
-  margin-left: 15px;
+  margin-left: 140px;
   margin-right: 15px;
+  font-size: 18px;
+  /*border-top: 3px solid #e61919;
+  border-bottom: 3px solid #e61919;
+  border-left: 3px solid #e61919;
+  border-right: 3px solid #e61919;*/
 }
 
 #sidebarhead {
   font-size: 24px;
   font-weight: 500px;
+  text-align: center;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:hover {
+  /*color: #fbb216;*/
+  color: black;
+}
+
+a:visited {
+  /*color: */
+  color: #bab00e;
 }
 
 /* Graphs */
@@ -163,7 +188,7 @@ iframe {
     width:50%;
   }
 
-}
+
 
 @media(max-width:750px) {
   .head {
@@ -174,4 +199,16 @@ iframe {
     font-size: 2.5em;
   }
 
+}
+
+@media(max-width:500px) {
+  .hero-head {
+    font-size: 3em;
+  }
+}
+
+@media(max-width:900px) {
+  .hero-head {
+    font-size: 4.5em;
+  }
 }
