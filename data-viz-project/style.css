@@ -2,6 +2,7 @@
   font-size: 3em;
   font-weight: 700px;
   text-align: center;
+  color: #1d61d7;
 }
 
 .byline {
@@ -10,8 +11,10 @@
 }
 
 .chapterhead {
-  font-size: 1.75em;
+  font-size: 3em;
   font-weight: 500px;
+  color: #1d61d7;
+  text-align: center;
 }
 
 img {
@@ -34,6 +37,35 @@ footer {
   padding-bottom: 25px;
 }
 
-.para2{
-  margin-bottom: 30px;
+p {
+
+}
+
+/* splash */
+.hero-container {
+  position: relative;
+  text-align: center;
+  /*color: white; */
+  font-family: 'Times New Roman', serif;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  top: 35%;
+  background: white;
+  opacity:.8;
+}
+
+.hero-head {
+  padding-top: 10px;
+  margin: 0 auto;
+  font-size: 5em;
+  font-family: 'Times New Roman', serif;
+  padding-bottom: 10px;
+  color: #1d61d7;
 }
