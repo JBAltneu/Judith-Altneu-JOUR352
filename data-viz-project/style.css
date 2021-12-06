@@ -56,9 +56,13 @@ p {
   font-weight: 600;
   margin-left: 200px;
   margin-right: 200px;
+  margin-bottom: 20px;
 }
 
 /* Navbar */
+nav {
+  background-color: #CE1511;
+}
 
 .nav-item {
   color:  #1d61d7;
