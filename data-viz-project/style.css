@@ -78,6 +78,7 @@ p {
   text-align: center;
   /*color: white; */
   font-family: 'Times New Roman', serif;
+  font-size: 1.5em;
 }
 
 .hero-image {
@@ -97,7 +98,7 @@ p {
 .hero-head {
   padding-top: 10px;
   margin: 0 auto;
-  font-size: 5em;
+  /*font-size: 5em;*/
   font-family: 'Times New Roman', serif;
   padding-bottom: 10px;
   color: #1d61d7;
@@ -107,13 +108,13 @@ p {
  padding-top: 10px;
   margin: 0 auto;
   color: #1d61d7;
-  font-size: 2em;
+  /*font-size: 2em;*/
   font-family: 'Times New Roman', serif;
 }
 
 iframe {
   padding-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .caption {
@@ -129,38 +130,13 @@ iframe {
   font-style: italic;
 }
 
-/*@media(max-width: 320px) {
-  .hero-head {
-  font-size: 40px;
-  }
-
-  .hero-sub {
-    font-size: 32px;
-  }
-
-}
-
-@media(max-width: 376px) {
-  .hero-head {
-    font-size: 0.50em;
-  }
-
-  .hero-sub {
-    font-size: 0.25em;
-  }
-
-  .overlay {
-    top: 20%;
-  }
-}*/
-
 @media(min-width: 480px) {
   .hero-head {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   .hero-sub {
-    font-size: 0.25em;
+    font-size: 0.75em;
   }
 
   .overlay {
@@ -168,8 +144,18 @@ iframe {
   }
 
   .pullquote {
-    width: 100%:
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
+
+  .caption {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0 auto;
+  }
+
 }
 
 /*@media(max-width: 576px) {
@@ -190,13 +176,13 @@ iframe {
 
 @media(min-width: 600px) {
   .hero-head {
-    font-size: 0.15em;
+    font-size: 2em;
     padding-bottom: 0px;
     padding-top: 0px;
   }
 
   .hero-sub {
-    font-size: 0.15em;
+    font-size: 1.25em;
     padding-bottom: 0px;
   }
 
