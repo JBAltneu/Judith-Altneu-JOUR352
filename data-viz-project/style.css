@@ -16,8 +16,8 @@ width: 100%;
 }*/
 
 .chapterhead {
-  font-size: 1.5em;
-  font-weight: 600px;
+  font-size: 4em;
+  font-weight: 500;
   color: #1d61d7;
   text-align: center;
   padding-top: 20px;
@@ -29,12 +29,13 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 90%;
-  margin: 0 auto;
+  width: 80%;
 }
 
 .caption {
-  margin-left: 40px;
+  font-family: 'Times New Roman', serif;
+  margin-left: 80px;
+  /*width: 80%;*/ 
 }
 
 footer {
@@ -46,10 +47,9 @@ footer {
   border-color: black;
 }
 
-.col-md-12 {
+/*.col-md-12 {
   margin-bottom: 15px;
-  font-size: 3em;
-}
+}*/
 
 p {
   font-family: 'Rubik', sans-serif;
@@ -63,6 +63,8 @@ p {
   font-weight: 600;
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .attribution {
@@ -132,20 +134,27 @@ iframe {
 
 @media (max-width: 1024px) {
   .hero-head {
-    font-size: 3em;
+    font-size: 3.5em;
   }
 
   .hero-sub {
     font-size: 2em;
   }
 
-  /*.hero-container {
-
-  }*/
+  .caption {
+    margin-left: 75px;
+  }
 
   .pullquote {
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
   }
 
 }
@@ -167,13 +176,15 @@ iframe {
   }
 
   img {
-    /*width: 100%;*/
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
   }
 
-  .col-md-12 {
+  /*.col-md-12 {
     width: 100%;
-  }
+  }*/
 
   .caption {
     margin: 0 auto;
@@ -181,13 +192,13 @@ iframe {
   }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 376px) {
   .hero-head {
-    font-size: .5em;
+    font-size: 1.7em;
   }
 
   .hero-sub {
-    font-size: .3em;
+    font-size: 1em;
   }
 
   /*.hero-container {
@@ -199,7 +210,8 @@ iframe {
   }
 
   .chapterhead {
-    font-size: 1em;
+    font-size: 2em;
+    font-weight: 600;
   }
 
   .pullquote {
@@ -219,7 +231,10 @@ iframe {
   }
 
   img {
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
   }
 
 }
