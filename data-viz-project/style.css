@@ -35,7 +35,9 @@ img {
 .caption {
   font-family: 'Times New Roman', serif;
   margin-left: 80px;
-  /*width: 80%;*/ 
+  padding-left: 30px;
+  padding-right: 100px;
+  /*width: 80%;*/
 }
 
 footer {
@@ -142,7 +144,8 @@ iframe {
   }
 
   .caption {
-    margin-left: 75px;
+    margin-left: 50px;
+    margin-right: 0px;
   }
 
   .pullquote {
@@ -188,7 +191,8 @@ iframe {
 
   .caption {
     margin: 0 auto;
-    margin-left: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 
@@ -211,7 +215,7 @@ iframe {
 
   .chapterhead {
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .pullquote {
@@ -224,8 +228,8 @@ iframe {
 
   .caption {
     width: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0 auto;
     font-size: 12px;
   }
@@ -234,7 +238,7 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 90%;
+    width: 100%;
   }
 
 }
