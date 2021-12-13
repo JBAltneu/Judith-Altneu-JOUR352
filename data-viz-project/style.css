@@ -2,19 +2,7 @@
 width: 100%;
 }
 
-/*.headline {
-  font-size: 3em;
-  font-weight: 700px;
-  text-align: center;
-  color: #1d61d7;
-  font-family: 'Times New Roman', serif;
-}*/
-
-/*.byline {
-  text-align: center;
-  font-size: 1em;
-}*/
-
+/*Styles subheader */
 .chapterhead {
   font-size: 4em;
   font-weight: 500;
@@ -38,7 +26,6 @@ img {
   margin-left: 80px;
   padding-left: 30px;
   padding-right: 100px;
-  /*width: 80%;*/
 }
 
 footer {
@@ -49,10 +36,6 @@ footer {
   border-top: solid;
   border-color: black;
 }
-
-/*.col-md-12 {
-  margin-bottom: 15px;
-}*/
 
 p {
   font-family: 'Rubik', sans-serif;
@@ -83,6 +66,7 @@ p {
   font-size: 20px;
 }
 
+
 /* splash */
 .hero-container {
   position: relative;
@@ -109,6 +93,7 @@ p {
   padding-top: 10px;
   margin: 0 auto;
   font-size: 5em;
+  font-weight: 500;
   font-family: 'Times New Roman', serif;
   padding-bottom: 10px;
   color: #1d61d7;
@@ -144,7 +129,7 @@ iframe {
   font-style: italic;
 }
 
-
+/* Styles for I-Pad Pro */
 @media (max-width: 1024px) {
   .hero-head {
     font-size: 3.5em;
@@ -177,7 +162,9 @@ p {
 
 }
 
+/* Styles for I-Pads */
 @media(max-width: 768px) {
+
   .hero-head {
     font-size: 3em;
   }
@@ -188,6 +175,8 @@ p {
 
   .caption {
     font-size: 13px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .pullquote {
@@ -214,9 +203,12 @@ p {
     margin: 0 auto;
     margin-left: 5px;
     margin-right: 0px;
+    margin-bottom: 10px;
   }
+
 }
 
+/* Styles for I-Phone X */
 @media(max-width: 376px) {
   .hero-head {
     font-size: 1.7em;
@@ -245,8 +237,9 @@ p {
 
   .caption {
     width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
     margin: 0 auto;
     font-size: 12px;
   }
