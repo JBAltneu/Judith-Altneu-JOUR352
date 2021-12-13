@@ -79,6 +79,9 @@ p {
   font-weight: 400;
 }
 
+.nav-link {
+  font-size: 20px;
+}
 
 /* splash */
 .hero-container {
@@ -125,6 +128,7 @@ iframe {
 }
 
 .caption {
+  padding-top: 5px;
   padding-bottom: 10px;
   font-size: 18px;
   font-family: 'Times New Roman', serif;
@@ -200,14 +204,16 @@ p {
     width: 100%;
   }
 
-  /*.col-md-12 {
+  .col-md-6 {
     width: 100%;
-  }*/
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 
   .caption {
     margin: 0 auto;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 0px;
   }
 }
 
@@ -257,63 +263,3 @@ p {
   }
 
 }
-
-/*@media(max-width: 576px) {
-  .hero-head {
-  font-size: 1.25em;
-  padding-top: 0px;
-  }
-
-  .hero-sub {
-    font-size: 0.50em;
-    padding-top: 0px;
-  }
-
-  iframe {
-    width: 100%;
-  }
-}*/
-
-/*@media(min-width: 600px) {
-  .hero-head {
-    font-size: 2em;
-    padding-bottom: 0px;
-    padding-top: 0px;
-  }
-
-  .hero-sub {
-    font-size: 1.25em;
-    padding-bottom: 0px;
-  }
-
-  .overlay {
-    top: 15%;
-    max-height: 400px;
-  }
-
-  .pullquote {
-    margin: 0 auto;
-    width: 100%;
-  }
-}*/
-
-
-
-
-/*@media(max-width: 900px) {
-  .pullquote {
-    width: 100%;
-  }
-}
-
-@media(min-width: 950px) {
-  .hero-head {
-    font-size: 3.25em;
-    padding-bottom: 0px;
-  }
-
-  .hero-sub {
-    font-size: 1.75em;
-  }
-
-}*/
